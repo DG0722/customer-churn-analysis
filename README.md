@@ -34,11 +34,6 @@ This project will help communications companies analyze which customers are stab
 - Churn customer: 22.9% use mailed check, 21.9% use bank transfer(auto), 21.6% use credit card (auto), 33.6% use electronic check.
 <br>
 
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/a7fc65d8-fb16-43df-9dc9-238ca7621766)
-- New customers are more likely to leave.
-- Customers with higher monthly charges are more likely to leave.
-<br>
-
 ![image](https://github.com/user-attachments/assets/c14d38da-d563-4aad-a8f8-cb8033571aca)
 
 ![image](https://github.com/user-attachments/assets/7f193932-5205-4e78-9971-ca6a23105d27)
@@ -61,6 +56,7 @@ This project will help communications companies analyze which customers are stab
 - Cross Validation (k=10): 72.5 %
 ### Model Comparison
 ![image](https://github.com/user-attachments/assets/c205f63c-5016-43bc-9b9b-6e0232a34912)
+<br>
 
 ![image](https://github.com/user-attachments/assets/fddc9a84-5937-4790-9f4b-67e6fabae0cc)
 
