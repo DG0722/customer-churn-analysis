@@ -6,25 +6,30 @@ in advance which customers are at risk of leaving, they can focus on retaining c
 <br>
 This project will help communications companies analyze which customers are stable and which customers are more likely to churn.
 ## Data Overview
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/92fcac06-5a21-4d68-925b-8227e7b07d7a)
+![image](https://github.com/user-attachments/assets/48d140c1-4de4-4a5c-937a-c9b9f3a025f1)
 ## Analysis with Data Visualization Overview
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/c1e2fa2f-3375-4299-b2e4-337b2ac3b859)
+![image](https://github.com/user-attachments/assets/b4a4943b-e554-40f5-9148-3b78a7ad1ed9)
 - The left plot shows how many customers are lost, how many are not.
 - The right one shows percentage of churn and non-churn customers.
 - 26.5% of the customers have churned out. The other 73.4% have stayed with the company.
 <br>
 
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/6694a520-fd03-46ab-9041-ef56cd60ca34)
+![image](https://github.com/user-attachments/assets/d5aa3ada-dae3-4e9f-ab46-dd1e1a3ddbfd)
 - Comparison with age.
 - Churn customer: 16.2% is seninor citizen, 83.8% is senior citizen.
 <br>
 
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/88a31252-a1d5-4ad2-aa7d-af1550a8bc5b)
+![image](https://github.com/user-attachments/assets/e2aa8015-b929-48e2-b036-3c621c14e813)
+- Comparison with seninor citizen.
+- There are only 16% of our data set is seninor citizen. The churn rate of non senior citizen is higher than seninor citizen.
+<br>
+
+![image](https://github.com/user-attachments/assets/10967055-a4df-4216-923e-d0836129441a)
 - Comparison with multiple lines.
 - Churn customer: 42.2% has multiple lines, 48.1% hassingle lines, 9.7% ha no line.
 <br>
 
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/73aefea5-b445-42c7-8254-488705f7adab)
+![image](https://github.com/user-attachments/assets/10967055-a4df-4216-923e-d0836129441a)
 - Comparison with payment methods.
 - Churn customer: 22.9% use mailed check, 21.9% use bank transfer(auto), 21.6% use credit card (auto), 33.6% use electronic check.
 <br>
@@ -32,12 +37,11 @@ This project will help communications companies analyze which customers are stab
 ![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/a7fc65d8-fb16-43df-9dc9-238ca7621766)
 - New customers are more likely to leave.
 - Customers with higher monthly charges are more likely to leave.
-
 <br>
 
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/2866dcea-1973-45ac-ae8a-fe6bd3cdfb61)
+![image](https://github.com/user-attachments/assets/c14d38da-d563-4aad-a8f8-cb8033571aca)
 
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/f05f1c77-1db5-4fcc-9e7e-56e949ec6532)
+![image](https://github.com/user-attachments/assets/7f193932-5205-4e78-9971-ca6a23105d27)
 - Correlation of "Churn" with other features.
 ## Model Building & Evaluation
 ### Logistic Regression
@@ -56,9 +60,10 @@ This project will help communications companies analyze which customers are stab
 - AUC: 0.82
 - Cross Validation (k=10): 72.5 %
 ### Model Comparison
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/1aa1d473-948b-4c72-bbb3-0867d971cedc)
+![image](https://github.com/user-attachments/assets/c205f63c-5016-43bc-9b9b-6e0232a34912)
 
-![image](https://github.com/jdenggao/customer-churn-analysis/assets/112433825/040402cb-6b9d-42b7-b765-aec6ef161b45)
+![image](https://github.com/user-attachments/assets/fddc9a84-5937-4790-9f4b-67e6fabae0cc)
+
 ## Conclusion
 - We select some features which are most related our target variable Churn.
   - PaperlessBilling, MonthlyCharges and SeniorCitizen are most positive related features.
